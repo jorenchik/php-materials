@@ -11,7 +11,7 @@ util class](./src/Utils/Request.php).
 
 But for the routes there is the handler in the same
 [util class](./src/Utils/Request.php) that matches specified routes in an
-[associated array](./web.php).
+[associated array](./src/web.php).
 
 
 ### Autoload

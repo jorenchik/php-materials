@@ -23,6 +23,9 @@ handling](https://www.w3schools.com/php/php_file_upload.asp).
 [Cheatsheet](https://mariadb.com/wp-content/uploads/2021/08/mariadb-standard-developer_cheat-sheet_1113.pdf)
 from the official mariadb website.
 
+Also, [SQL cheatsheet](https://www.sqltutorial.org/sql-cheat-sheet/) from SQL
+turorial could come in handy.
+
 ### Popular php functions
 
 The [100 top-most used
@@ -37,3 +40,9 @@ exakat.
 - Set relative line numbers:
     - Settings (CTRL+comma) > Line Numbers > Change from "On" to
       "relative".
+
+## Algorithms
+
+[Most useful
+algorithms](https://medium.com/techie-delight/top-25-algorithms-every-programmer-should-know-373246b4881b)
+that could be useful.

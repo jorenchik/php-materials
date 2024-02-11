@@ -5,12 +5,12 @@
 ### Template rendering 
 
 How you could render templates with prepared variables is shown within a [request
-controller](./src/Controllers/Request.php).
+util class](./src/Utils/Request.php).
 
 ### Simple uouting system
 
 But for the routes there is the handler in the same
-[controller](./src/Controllers/Request.php) that matches specified routes in an
+[util class](./src/Utils/Request.php) that matches specified routes in an
 [associated array](./web.php).
 
 

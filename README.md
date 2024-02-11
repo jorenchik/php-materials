@@ -28,3 +28,12 @@ from the official mariadb website.
 The [100 top-most used
 functions](https://www.exakat.io/en/the-100-php-functions-in-2022/) in php by
 exakat.
+
+## Setup
+
+### Making VSCode into vim (:
+
+- Istall & enable vim mode extension, e.g., VSCode neovim.
+- Set relative line numbers:
+    - Settings (CTRL+comma) > Line Numbers > Change from "On" to
+      "relative".

@@ -13,4 +13,18 @@ class](./request/Request.php).
 
 ## External materials
 
+### Form with file handling
 
+Examples with explanation in regards to file [uploading and
+handling](https://www.w3schools.com/php/php_file_upload.asp).
+
+### MariaDB cheatcheet
+
+[Cheatsheet](https://mariadb.com/wp-content/uploads/2021/08/mariadb-standard-developer_cheat-sheet_1113.pdf)
+from the official mariadb website.
+
+### Popular php functions
+
+The [100 top-most used
+functions](https://www.exakat.io/en/the-100-php-functions-in-2022/) in php by
+exakat.

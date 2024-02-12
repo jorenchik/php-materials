@@ -33,6 +33,14 @@ close to GNU utils by their names.
 Examples with explanation in regards to file [uploading and
 handling](https://www.w3schools.com/php/php_file_upload.asp).
 
+#### Serving files
+
+The file access options are modified with [content-disposition
+  header](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Disposition).
+That is file can be viewed, downloaded etc.
+
+An [example](./files/servingafile.php) shows how to set this header.
+
 ### Database
 
 #### Prepared statements
@@ -41,6 +49,15 @@ Mysqli offers [parameter
 binding](https://www.php.net/manual/en/mysqli.quickstart.prepared-statements.php)
 which is a must for avoiding SQL injections.
 
+#### Transactions
+
+To make a dry run you can either:
+
+- The same query but as a SELECT;
+- Use
+  [transations](https://stackoverflow.com/questions/12091971/how-to-start-and-end-transaction-in-mysqli).
+
+
 #### MariaDB cheatcheet
 
 [Cheatsheet](https://mariadb.com/wp-content/uploads/2021/08/mariadb-standard-developer_cheat-sheet_1113.pdf)
@@ -48,6 +65,18 @@ from the official mariadb website.
 
 Also, [SQL cheatsheet](https://www.sqltutorial.org/sql-cheat-sheet/) from SQL
 turorial could come in handy.
+
+### Session
+
+Session usage is neatly explained in this [stackoverflow
+question](https://stackoverflow.com/questions/2499651/php-login-store-session-variables).
+
+### Time
+
+One good approach of time handling is to use UTC initially and then adjust
+it to a relevant timezone if needed. 
+
+This [example](./src/time/timezone.php) shows how this can be accomplished.
 
 ### Popular php functions
 

@@ -76,7 +76,7 @@ question](https://stackoverflow.com/questions/2499651/php-login-store-session-va
 One good approach of time handling is to use UTC initially and then adjust
 it to a relevant timezone if needed. 
 
-This [example](./src/time/timezone.php) shows how this can be accomplished.
+This [example](./time/timezone.php) shows how this can be accomplished.
 
 ### Popular php functions
 

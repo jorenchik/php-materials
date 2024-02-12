@@ -57,6 +57,15 @@ To make a dry run you can either:
 - Use
   [transations](https://stackoverflow.com/questions/12091971/how-to-start-and-end-transaction-in-mysqli).
 
+With this sequence, made changes would not be made in database, even though rows
+would be shown as affected:
+
+```php
+$mysqli->rollback();
+$mysqli->commit();
+$stmt->close();
+```
+
 
 #### MariaDB cheatcheet
 
